@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color:#222222;
+    width:100%;
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo{
+    text-decoration: none;
+    color:#C6C6C6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:1.8em;
+}
+
+.navigation a{
+    color:#C6C6C6;
+    text-decoration: none;
+    transition: 0.7s ease;
+    font-size:1.1em;
+    font-weight:500px;
+    padding-left:30px;
+}
+
+.navigation a:hover{
+    color:#8d8989;
+}
+
+section{
+    padding: 100px 100px;
+}
+
+.main{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    background: url(images/Wallpapaer.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color:white;
+    font-size:1.2em;
+    font-weight:500;
+}
+
+.main h2 span{
+    color:#C6C6C6;
+    display: inline-block;
+    margin-top:10px;
+    font-size:2em;
+    font-weight:600;
+}
+
+.main h3{
+    color:white;
+    font-size:1.1em;
+    font-weight:700;
+    letter-spacing: 1px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.MainButton{
+    color:#222222;
+    background-color:#c6c6c6;
+    text-decoration: none;
+    font-size:0.85em;
+    font-weight:500;
+    display: inline-block;
+    padding:0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    margin-bottom: 10px;
+}
+
+.MainButton:hover{
+    background-color: #8d8989;
+    transform: scale(1.1);
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    color:#222222;
+    font-size: 2.2em;
+    font-weight:800;
+    margin-bottom:30px;
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color:#222222;
+    width:21.23em;
+    box-shadow: 0px 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding:20px;
+    margin:40px;
+    transition: 0.7s ease;
+}
+
+.cards{
+    background-color:#c6c6c6;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: #c6c6c6;
+    font-size:4em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color:#c6c6c6;
+    font-size:1.2em;
+    font-weight: 700;
+    margin:10px;
+}
+
+.info p{
+    color:#c6c6c6;
+}
+
+.Projects{
+    background-color: #222222;
+}
+
+#title-three{
+    display:flex;
+    justify-content: center;
+    color:#c6c6c6;
+    font-size: 2.2em;
+    font-weight:800;
+    margin-bottom:30px;
+}
+
+.project-card{
+    background-color: #C6C6C6;
+    border:2px solid #C6C6C6;
+    min-height: 14em;
+    width:21.23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 65px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-image img{
+    width:100%;
+}
+
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+
+.project-info{
+    padding:1em;
+}
+
+.project-category{
+    margin-top: -10px;
+    font-size: 0.8em;
+    color:#222222;
+}
+
+.project-title{
+    color:#222222;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    font-size:1em;
+}
+
+.more-ditals{
+    color:#222222;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+
+.more-ditals:hover{
+    color:#8d8989;
+}
+
+.footer{
+    background-color: #222222;
+    color:white;
+    padding:25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size:1.2em;
+    font-weight: 600;
+}
+
+.footer-title span{
+    color:#C6C6C6;
+}
+
+.SocialIcons a{
+    color:white;
+    font-size:1.3em;
+    transition: 0.7s ease;
+}
+
+.SocialIcons a:hover{
+    transform: scale(1.1);
+    color:#8d8989;
+}
